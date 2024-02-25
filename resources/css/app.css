@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    padding-top: 6rem;
+}
+
+@media (min-width: 640px) {
+    header {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 639px) {
+    header {
+        padding-top: 4rem;
+    }
+}
